@@ -60,3 +60,6 @@ def convertor(src_path, dst_path, convert_type):
                 else:
                     raise TypeError("collection must be list or tuple")
                 out.write(fea)
+
+if __name__ == '__main__':
+    convertor()
